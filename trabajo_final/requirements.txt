@@ -1,0 +1,9 @@
+python-dotenv
+langchain
+langchain-google-genai
+langchain-chroma
+langgraph
+notion-client
+langchain-core
+langchain-community
+chromadb
