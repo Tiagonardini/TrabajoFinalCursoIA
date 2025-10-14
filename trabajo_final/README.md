@@ -1,31 +1,43 @@
 # Bruno — Mozo Virtual (Proyecto CACIC 2025)
 
-Resumen
--------
-Esqueleto multiagente que evoluciona el agente "Bruno" hacia un sistema con:
-- LangGraph (2 agentes colaborativos)
-- RAG (Chroma + embeddings Gemini)
-- Persistencia externa en Notion
-- Observabilidad con LangSmith (opcional)
+**Bruno** un **Mozo Virtual** desarrollado como parte del **Proyecto CACIC 2025**. Sigue estos sencillos pasos para tener la aplicación funcionando en tu equipo local.
 
-Requisitos
-----------
-- Python 3.10+
-- Archivo `.env` con variables (ver .env.template)
-- Dependencias: pip install -r requirements.txt
+***
 
-Setup rápido
------------
-1. Copiar template: `cp .env.template .env` y completar claves privadas.
-2. Instalar dependencias: `pip install -r requirements.txt`
-3. Ejecutar: `python -m src.bruno_mozo_virtual`
+## 1. Prepara el Entorno Virtual
 
-Notas sobre evaluación
-----------------------
-- Asegurarse de que `NOTION_API_KEY` y `NOTION_DATABASE_ID` estén configurados si querés persistencia real.
-- Activar LangSmith para capturar traces: configurar `LANGCHAIN_TRACING_V2` y `LANGCHAIN_API_KEY`.
+Es fundamental crear y utilizar un **entorno virtual** para aislar las dependencias del proyecto y evitar conflictos con otras instalaciones de Python en tu sistema.
 
-Fuentes y bases
----------------
-- Código base original (versiones La Delicia / Bella Vista) incluido como referencia en `ambos_codigos.txt`. :contentReference[oaicite:3]{index=3}
-- Consigna Proyecto Final CACIC 2025 (requisitos y rúbrica). :contentReference[oaicite:4]{index=4}
+1. **Crea** el entorno virtual:
+    ```bash
+    python3 -m venv .venv
+    ```
+2. **Activa** el entorno virtual para comenzar a trabajar dentro de él:
+    ```bash
+    source .venv/bin/activate
+    ```
+    *(Cuando el entorno esté activo, verás `(.venv)` al inicio de tu línea de comandos.)*
+
+***
+
+## 2. Instalar Dependencias
+
+Con el entorno virtual activado, procede a instalar todas las bibliotecas y herramientas necesarias para el correcto funcionamiento de **Bruno**.
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+## 3. Ejecutar Bruno
+
+Una vez instaladas las dependencias, navega a la carpeta principal del código fuente y ejecuta la aplicación.
+
+1. **Accede** a la carpeta principal del código:
+    ```bash
+    cd trabajo_final/src
+    ```
+
+2. **Ejecuta** el programa:
+    ```bash
+    python3 bruno_mozo_virtual.py
+    ```
