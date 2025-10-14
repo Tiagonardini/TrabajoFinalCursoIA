@@ -41,6 +41,8 @@ from langgraph.graph.message import add_messages
 from langgraph.prebuilt import ToolNode
 
 # --- 1. CONFIGURACIÓN INICIAL ---
+load_dotenv()
+print(os.getenv("GEMINI_API_KEY"))  # Esto debería imprimir la clave de API
 
 def setup_environment():
     """Carga las variables de entorno desde el archivo .env."""
@@ -190,11 +192,25 @@ def build_graph(llm_with_tools, tools_list):
 if __name__ == "__main__":
     setup_environment()
     
-    llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash",
-                                 google_api_key=os.getenv("GEMINI_API_KEY"), 
-                                 temperature=0)
-    embedding_model = GoogleGenerativeAIEmbeddings(model="models/gemini-embedding-001",
-                                                   google_api_key=os.getenv("GEMINI_API_KEY"))
+    llm = ChatGoogleGenerativeAI(
+    model="gemini-2.5-flash",
+    google_api_key=os.getenv("GEMINI_API_KEY"),
+    temperature=0
+)
+
+embedding_model = GoogleGenerativeAIEmbeddings(
+    model="models/gemini-embedding-001",
+    google_api_key=os.getenv("GEMINI_API_KEY")
+)
+
+api_key = os.getenv("GEMINI_API_KEY")  # Asegúrate de obtener la clave correctamente
+if not api_key:
+    print("❌ La clave GEMINI_API_KEY no está configurada.")
+else:
+    print(f"✅ Clave API cargada: {api_key}")
+
+    
+
 
     documents = load_documents()
     vectorstore = create_or_load_vectorstore(documents, embedding_model)
