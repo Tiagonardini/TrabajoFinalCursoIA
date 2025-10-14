@@ -1,6 +1,10 @@
 # Bruno — Mozo Virtual (Proyecto CACIC 2025)
 
 Resumen
+source .venv/bin/activate  
+pip install -r requirements.txt  
+python3 bruno_mozo_virtual.py
+
 -------
 Esqueleto multiagente que evoluciona el agente "Bruno" hacia un sistema con:
 - LangGraph (2 agentes colaborativos)
@@ -28,4 +32,5 @@ Notas sobre evaluación
 Fuentes y bases
 ---------------
 - Código base original (versiones La Delicia / Bella Vista) incluido como referencia en `ambos_codigos.txt`. :contentReference[oaicite:3]{index=3}
+
 - Consigna Proyecto Final CACIC 2025 (requisitos y rúbrica). :contentReference[oaicite:4]{index=4}
