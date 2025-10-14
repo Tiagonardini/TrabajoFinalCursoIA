@@ -1,23 +1,22 @@
-| dia       | categoria | plato                 | descripcion                                      | precio | ingredientes                                |
-| --------- | --------- | --------------------- | ------------------------------------------------ | ------ | ------------------------------------------- |
-| Lunes     | Aperitivo | Bruschetta Clásica    | Pan tostado con tomates frescos, ajo y albahaca. | 8      | pan, tomate, ajo, albahaca, aceite de oliva |
-| Lunes     | Principal | Lomo a la Pimienta    | Medallón de lomo con salsa de pimienta y puré.   | 28     | lomo, pimienta, crema, papa                 |
-| Lunes     | Postre    | Flan Casero           | Flan artesanal con dulce de leche.               | 7      | leche, huevo, azúcar, dulce de leche        |
-| Martes    | Aperitivo | Ensalada Caprese      | Tomate, mozzarella y albahaca fresca.            | 9      | tomate, mozzarella, albahaca                |
-| Martes    | Principal | Risotto de Hongos     | Arroz arbóreo con hongos y parmesano.            | 22     | arroz, hongos, parmesano                    |
-| Martes    | Postre    | Tiramisú              | Bizcocho con café, mascarpone y cacao.           | 9      | bizcocho, café, mascarpone, cacao           |
-| Miércoles | Aperitivo | Tabla de Quesos       | Selección de quesos y fiambres.                  | 15     | quesos, jamón serrano, salame               |
-| Miércoles | Principal | Salmón Grillado       | Salmón fresco con vegetales de estación.         | 25     | salmón, vegetales                           |
-| Miércoles | Postre    | Volcán de Chocolate   | Bizcocho tibio con centro líquido.               | 10     | chocolate, manteca, huevo                   |
-| Jueves    | Aperitivo | Sopa del Día          | Varía según temporada.                           | 6      | vegetales                                   |
-| Jueves    | Principal | Lasagna Boloñesa      | Capas de pasta con carne y bechamel.             | 24     | carne, pasta, bechamel                      |
-| Jueves    | Postre    | Helado Artesanal      | Tres gustos a elección.                          | 8      | leche, azúcar                               |
-| Viernes   | Aperitivo | Empanadas de Carne    | Tradicionales empanadas al horno.                | 5      | carne, cebolla, huevo                       |
-| Viernes   | Principal | Milanesa Napolitana   | Milanesa con jamón, queso y tomate.              | 23     | carne, queso, tomate                        |
-| Viernes   | Postre    | Panqueque con Dulce   | Panqueque tibio con dulce de leche.              | 7      | harina, leche, dulce de leche               |
-| Sábado    | Aperitivo | Bruschetta Gourmet    | Pan tostado con tomates cherry y pesto.          | 9      | pan, tomate cherry, pesto                   |
-| Sábado    | Principal | Sorrentinos de Ricota | Pasta rellena con salsa bolognesa.               | 24     | ricota, harina, carne                       |
-| Sábado    | Postre    | Mousse de Chocolate   | Postre aireado con cacao amargo.                 | 9      | chocolate, crema                            |
-| Domingo   | Aperitivo | Provoleta al Orégano  | Queso fundido con orégano.                       | 10     | queso, orégano                              |
-| Domingo   | Principal | Pollo al Limón        | Pechuga grillada con salsa cítrica.              | 21     | pollo, limón, manteca                       |
-| Domingo   | Postre    | Tarta de Manzana      | Tarta casera de manzana.                         | 8      | manzana, harina, azúcar                     |
+dia,categoria,plato,descripcion,precio,ingredientes
+Lunes,Aperitivo,Bruschetta Clásica,"Pan tostado con tomates frescos, ajo y albahaca.",8,"pan, tomate, ajo, albahaca, aceite de oliva"
+Lunes,Principal,Lomo a la Pimienta,"Medallón de lomo con salsa de pimienta y puré.",25,"lomo, pimienta, crema, papa"
+Lunes,Postre,Flan Casero,"Flan artesanal con dulce de leche.",7,"leche, huevo, azúcar, dulce de leche"
+Martes,Principal,Ensalada Caprese,"Tomate, mozzarella y albahaca fresca.",10,"tomate, mozzarella, albahaca"
+Martes,Principal,Risotto de Hongos,"Arroz con hongos y parmesano.",12,"arroz, hongos, parmesano"
+Martes,Postre,Tiramisú,"Bizcocho con café, mascarpone y cacao.",9,"bizcocho, café, mascarpone, cacao"
+Miércoles,Aperitivo,Tabla de Quesos,"Selección de quesos y fiambres.",15,"quesos, jamón serrano, salame"
+Miércoles,Principal,Salmón Grillado,"Salmón fresco con vegetales de estación.",25,"salmón, vegetales"
+Miércoles,Postre,Volcán de Chocolate,"Bizcocho tibio con centro líquido.",14,"chocolate, manteca, huevo"
+Jueves,Aperitivo,Sopa del Día,"Varía según temporada.",6,"vegetales"
+Jueves,Principal,Lasaña Boloñesa,"Capas de pasta con carne y bechamel.",14,"carne, pasta, bechamel"
+Jueves,Postre,Helado Artesanal,"Tres gustos a elección.",8,"leche, azúcar"
+Viernes,Aperitivo,Empanadas de Carne,"Tradicionales empanadas al horno.",5,"carne, cebolla, huevo"
+Viernes,Principal,Milanesa Napolitana,"Milanesa con jamón, queso y tomate.",12,"carne, queso, tomate"
+Viernes,Postre,Panqueque con Dulce,"Panqueque con dulce de leche.",7,"harina, leche, dulce de leche"
+Sábado,Aperitivo,Bruschetta Gourmet,"Pan tostado con tomates cherry y pesto.",9,"pan, tomate cherry, pesto"
+Sábado,Principal,Sorrentinos de Ricota,"Pasta rellena con salsa bolognesa.",13,"ricota, harina, carne"
+Sábado,Postre,Mousse de Chocolate,"Postre aireado con cacao amargo.",9,"chocolate, crema"
+Domingo,Aperitivo,Provoleta al Orégano,"Queso fundido con orégano.",10,"queso, orégano"
+Domingo,Principal,Pollo al Limón,"Pechuga grillada con salsa cítrica.",21,"pollo, limón, manteca"
+Domingo,Postre,Tarta de Manzana,"Tarta casera de manzana.",9,"manzana, harina, azúcar"
