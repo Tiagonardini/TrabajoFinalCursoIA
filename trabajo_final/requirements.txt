@@ -1,8 +1,8 @@
-# requirements.txt - dependencias principales
+# requirements.txt - dependencias
 pandas>=2.2.2
 python-dotenv>=1.0.1
 
-# LangChain, LangGraph y Google GenAI connector (nombres según ecosistema)
+# LangChain, LangGraph y Google GenAI connector
 langchain>=0.3.0
 langchain-community>=0.3.0
 langchain-google-genai>=0.1.0
@@ -14,7 +14,3 @@ langchain-chroma>=0.0.1
 
 # Tipos y utilidades
 typing-extensions>=4.5.0
-
-# (opcional) si trabajas en entornos con notebooks sin headless rendering
-# not required en CLI puro:
-# jupyterlab
