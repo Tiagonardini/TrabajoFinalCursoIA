@@ -8,7 +8,7 @@ Características:
   - LangSmith tracing (DEBUG mode)
   - corre en CLI 
 
-Ejecutar: python bruno_mozo_virtual_v4.py
+Ejecutar: python bruno_mozo_virtual_v3.py
 """
 
 import os
@@ -679,4 +679,5 @@ def main():
     info_log("Sesión finalizada.")
 
 if __name__ == "__main__":
+
     main()
