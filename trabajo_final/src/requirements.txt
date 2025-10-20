@@ -1,0 +1,27 @@
+# requirements.txt
+
+pandas
+python-dotenv
+
+# LangChain
+langchain
+langchain-core
+langchain-community
+langchain-google-genai
+
+# LangGraph
+langgraph
+
+# Chroma vectorstore
+chromadb
+langchain-chroma
+
+# Notion API
+notion-client
+requests
+
+# LangSmith
+langsmith
+
+# Utilidades
+typing-extensions
